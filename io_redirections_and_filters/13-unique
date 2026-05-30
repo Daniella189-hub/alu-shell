@@ -1,2 +1,2 @@
 #!/bin/bash
-less < friend |sort | uniq
+less < friend |sort | uniq -i
