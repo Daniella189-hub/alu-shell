@@ -1,17 +1,16 @@
 #!/usr/bin/env bash
 #this implement bad_luck good_luck best_school
  i="0"
-while [ $i -lt 8 ]
+while [ $i -lt 10 ]
   do
-   echo "Best School"
     i=$((i+1))
-   if [ $i -eq 3 ]
+   if [ $i -eq 4 ]
    then
       echo "bad luck"
-   elif [ $i -eq 6 ]
+   elif [ $i -eq 8 ]
     then
        echo "good luck"
    else
-    echo " "
+    echo "Best School "
   fi
 done
