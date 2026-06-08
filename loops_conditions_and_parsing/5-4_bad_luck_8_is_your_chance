@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 #this implement bad_luck good_luck best_school
  i="0"
 while [ $i -lt 8 ]
