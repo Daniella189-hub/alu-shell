@@ -1,0 +1,15 @@
+i#!/usr/bin/env bash 
+i="1"
+while [ $i -le 20 ]
+do 
+   echo "$i"
+  i=$((i+1))
+   case "$i" in
+    "5") echo "bad luck from China"
+     ;;
+    "10") echo "bad luck form Japan"
+     ;;
+    "18")echo "bad luck form Italy"
+     ;;
+      esac
+done
