@@ -1,4 +1,4 @@
-#!/usr/bin/env  bash
+#!/usr/bin/env bash
 #this implemensts every 12hours with 59 minutes 
 
 i="0"
