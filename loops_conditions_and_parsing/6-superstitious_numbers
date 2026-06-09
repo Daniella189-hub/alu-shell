@@ -1,4 +1,5 @@
-i#!/usr/bin/env bash 
+#!/usr/bin/env bash 
+#this implements bad_luck in China, Japan and Italy inside iteration
 i="1"
 while [ $i -le 20 ]
 do 
