@@ -4,7 +4,8 @@ signal=""
 trap 'signal=SIGTERM' SIGTERM
 while true
 do
-     echo "To infinity and beyond"	 
+     echo "To infinity and beyond"
+      
      if [ "$signal" = "SIGTERM" ]
          then
             echo "I am invincible!!!"
