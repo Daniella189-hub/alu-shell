@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+signal=""
+trap 'signal=SIGTERM' SIGTERM
+while true
+do
+     if [ "$signal" = "SIGTERM" ]
+         then
+            echo "I am invincible!!!"
+     fi  
+  echo "To infinity and beyond" 
+  sleep 2
+  
+done
