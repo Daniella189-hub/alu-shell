@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#this implements the killing of the the previous script
+
+kill 1
