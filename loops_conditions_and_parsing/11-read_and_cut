@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #this implements the username user id and home path of a file
-while read line; do
+while read -r line; do
     userid=$(echo "$line" | cut -d: -f3)
     username=$(echo "$line" | cut -d: -f1)
     homepath=$(echo "$line" | cut -d: -f6)
