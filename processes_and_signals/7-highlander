@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# this implements sigterm whenever there is a signal called 
 signal=""
 trap 'signal=SIGTERM' SIGTERM
 while true
