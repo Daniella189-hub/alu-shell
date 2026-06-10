@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#this implements th elist of all the processes
+ps aux 
