@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#implememts the secret of the etc/passwd file
+while IFS=","  read -r line; do
+    userid=$(echo "$line" | cut -d: -f3)
+    username=$(echo "$line" | cut -d: -f1)
+    homepath=$(echo "$line" | cut -d: -f6)
+    groupid=$(echo "$line" | cut -d: -f4)
+    shell=$(echo "$line" | cut -d: -f7)
+    password=$(echo "$line" |cut -d: -f2)
+    useridinfo=$(echo "$line" | cut -d: -f5)
+    echo "The user $username is part of the $groupid gang, lives in $homepath and rides $shell. $userid's place is protected by the passcode $password, more info about the user her: $useridinfo"
+done < /etc/passwd
