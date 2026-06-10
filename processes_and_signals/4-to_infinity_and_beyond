@@ -1,7 +1,7 @@
 #!/usr/bin/env bash 
 #this implements to infinity and beyond indefinitely adds sleep 2 in between
 while true
-do 
-   sleep 2
+do
    echo "To infinity and beyond"
+   sleep 2
 done
