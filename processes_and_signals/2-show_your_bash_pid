@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+#this implements process of a name bash without using  pgre
 ps -lf | grep "bash"
 # shellcheck disable=SC2009
