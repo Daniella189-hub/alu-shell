@@ -1,15 +1,9 @@
 #!/usr/bin/env bash
 # this implements sigterm whenever there is a signal called
-signal=""
-trap 'signal=SIGTERM' SIGTERM
+trap 'echo "I am invincible!!!"' SIGTERM
 while true
 do
      echo "To infinity and beyond"
-      
-     if [ "$signal" = "SIGTERM" ]
-         then
-            echo "I am invincible!!!"
-     fi  
-  sleep 2
+     sleep 2
   
 done
